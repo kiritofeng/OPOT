@@ -1,4 +1,4 @@
-g++ -O3 MinCost_PR.cpp -o temp
+g++ -O3 UOJ.cpp -o temp
 
 echo "cifar_0"
 ./temp < ../Data/CIFAR/cifar_0.txt
