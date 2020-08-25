@@ -1,4 +1,4 @@
-g++ -O3 LemonNetworkSimplex.cpp -o temp -lemon
+g++ -O3 LemonNetworkSimplex.cpp -o temp -I lemon
 
 echo "cifar_0"
 ./temp < ../Data/CIFAR/cifar_0.txt

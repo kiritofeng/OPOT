@@ -1,4 +1,4 @@
-g++ -O3 KM.cpp -o temp
+g++ -O3 mincost.cpp -o temp
 
 echo "cifar_0"
 ./temp < ../Data/CIFAR/cifar_0.txt
